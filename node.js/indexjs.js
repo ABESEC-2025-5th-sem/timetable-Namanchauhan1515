@@ -1,24 +1,11 @@
 const fs=require('fs');
 // fs.writeFile("./abes.txt","we are code",()=>{ });
 // fs.readFile("./abes.txt","utf-8",(err,result)=>{
-//     if(err){
+//     if(ierr){
 //         console.log("Error",err)
 //     }else{
 //         console.log(result);
 //     }
 // });
 // fs.appendFile("./abes.txt",`Naman`,()=>{});
-// fs.cpSync("./abes.txt","./a1.txt");
-// fs.unlinkSync("./abes.txt");
-
-
-fs.unlinkSync("./ds-b.txt", "utf-8", (err) => {
-    if (err) {
-        console.log("Error:", err);
-    } else {
-        console.log("File read successfully");
-    }
-});
-
-
-
+fs.cpSync("./abes.txt","./a1.txt");
